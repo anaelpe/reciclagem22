@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url(different-wastes-ready-for-recycling-on-gray-background.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+}
+
+#menu ul{
+    height: 40px;
+    margin: 10;
+    list-style: none;
+    padding: 4;
+    background-color: rgb(37, 37, 39);
+}
+
+#menu ul li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#menu ul li a{
+    margin: 10px;
+    color: #fff;
+    display: inline-block;
+    padding: 4px;
+    text-decoration: none;
+    display: inline;
+}
+
+#menu ul li a:hover {
+    background-color: rgba(81, 81, 88, 0.575);
+}
+
+#menu ul li a:active{
+    background-color: gray;
+}
+
+header{
+    padding: 20px;
+    background-color: rgba(47, 79, 79, 0.856);
+    color: lightslategray;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+}
+
+main {
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.829);
+    margin: 10px;
+    margin-top: 0px;
+    box-shadow: 2px 2px 2px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+#lavagem {
+    border: 1px solid black;
+    border-radius: 10px ;
+}
+
+#localização {
+    border: 1px solid black;
+}
+
+#localização img {
+    
+
+}
+
+footer {
+    text-shadow: 2px 3px 3px white;
+    text-decoration: double;
+    text-align: center;
+    background-color: gray;
+}
